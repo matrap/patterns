@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator.csproj", "{00671645-4483-4DA7-86AA-0DBF0C0A102A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{00671645-4483-4DA7-86AA-0DBF0C0A102A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "..\Strategy\Strategy.csproj", "{A260458A-30D9-4DC2-AB60-18D203B90C11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{A260458A-30D9-4DC2-AB60-18D203B90C11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

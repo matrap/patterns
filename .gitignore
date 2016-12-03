@@ -29,3 +29,15 @@
 /Strategy/obj/Debug/*.exe
 /Strategy/obj/Debug/*.pdb
 /Strategy/obj/Debug/*.cs
+/Decorator/bin/Debug/*.exe
+/Decorator/bin/Debug/*.config
+/Decorator/bin/Debug/*.pdb
+/Decorator/bin/Debug/*.manifest
+/Decorator/obj/Debug/*.txt
+/Decorator/obj/Debug/*.cache
+/Decorator/obj/Debug/*.exe
+/Decorator/obj/Debug/*.pdb
+/Decorator/obj/Debug/*.cs
+/*.suo
+/Strategy/bin/Debug/*.manifest
+/Decorator/*.suo
