@@ -1,16 +1,13 @@
-﻿using Decorator;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
-namespace Patterns
+namespace Decorator
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Decorator pattern");
+
             ICalculator standardCalc = new StandardCalculator();
             ICalculator consoleCalc = new ConsoleCalculator(standardCalc);
             int a = 5;

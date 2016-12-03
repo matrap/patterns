@@ -21,3 +21,11 @@
 /Patterns/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
 /Patterns/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
 /Patterns/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+/Strategy/bin/Debug/*.exe
+/Strategy/bin/Debug/*.config
+/Strategy/bin/Debug/*.pdb
+/Strategy/obj/Debug/*.cache
+/Strategy/obj/Debug/*.txt
+/Strategy/obj/Debug/*.exe
+/Strategy/obj/Debug/*.pdb
+/Strategy/obj/Debug/*.cs
