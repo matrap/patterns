@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Builder
 {
-    public class Peugeot : ICar
+    public class Peugeot
     {
         public double EngineVolume { get; private set; }
         public int DoorsNumber { get; private set; }

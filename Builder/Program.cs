@@ -10,10 +10,10 @@ namespace Builder
     {
         static void Main(string[] args)
         {
-            Client client = new Client();
-            string peugeotParams = client.BuyPeugeot().ToString();
+            CarProvider carProvider = new CarProvider();
+            string peugeotParams = carProvider.ConstructPeugeot(2016).ToString();
             Console.WriteLine(peugeotParams);
-            string skodaParams = client.BuySkoda().ToString();
+            string skodaParams = carProvider.ConstructSkoda(2015).ToString();
             Console.WriteLine(skodaParams);
         }
     }

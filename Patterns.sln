@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{210028AD-9FD0-4161-BC4D-6842B668E7F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{C4EFD3DD-97C7-45F9-BA31-D88CA74C93B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory.cs", "AbstractFactory.cs\AbstractFactory.cs.csproj", "{D924A3C0-6EDC-4303-BA38-89A824011A5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,16 @@ Global
 		{210028AD-9FD0-4161-BC4D-6842B668E7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{210028AD-9FD0-4161-BC4D-6842B668E7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{210028AD-9FD0-4161-BC4D-6842B668E7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D924A3C0-6EDC-4303-BA38-89A824011A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D924A3C0-6EDC-4303-BA38-89A824011A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D924A3C0-6EDC-4303-BA38-89A824011A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D924A3C0-6EDC-4303-BA38-89A824011A5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{210028AD-9FD0-4161-BC4D-6842B668E7F5} = {C4EFD3DD-97C7-45F9-BA31-D88CA74C93B9}
+		{D924A3C0-6EDC-4303-BA38-89A824011A5F} = {C4EFD3DD-97C7-45F9-BA31-D88CA74C93B9}
 	EndGlobalSection
 EndGlobal

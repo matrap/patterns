@@ -8,17 +8,23 @@ namespace Builder
 {
     public class CarProvider
     {
-        private ICarBuilder _carBuilder;
+        private SkodaBuilder _skodaBuilder = new SkodaBuilder();
+        private PeugeotBuilder _peugeotBuilder = new PeugeotBuilder();
 
-        public CarProvider(ICarBuilder carBuilder)
+        public Peugeot ConstructPeugeot(int year)
         {
-            _carBuilder = carBuilder;
+            Peugeot car = _peugeotBuilder
+                .AddDoor(2)
+                .InputEngine(1.4)
+                .TakeFromConstructionYear(year)
+                .Build();
+            return car;
         }
 
-        public ICar Construct(int year)
+        public Skoda ConstructSkoda(int year)
         {
-            ICar car = _carBuilder
-                .InputEngine(1.4)
+            Skoda car = _skodaBuilder
+                .InputEngine(1.6)
                 .TakeFromConstructionYear(year)
                 .AddDoor(2)
                 .AddDoor(3)

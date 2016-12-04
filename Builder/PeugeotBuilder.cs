@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace Builder
 {
-    public class PeugeotBuilder : ICarBuilder
+    public class PeugeotBuilder
     {
         private double _engineVolume;
         private int _doors;
         private int _yearOfConstruction;
 
-        public ICarBuilder InputEngine(double volume)
+        public PeugeotBuilder InputEngine(double volume)
         {
             _engineVolume = volume;
             return this;
         }
 
-        public ICarBuilder AddDoor(int number)
+        public PeugeotBuilder AddDoor(int number)
         {
             _doors = _doors + number;
             return this;
         }
 
-        public ICarBuilder TakeFromConstructionYear(int year)
+        public PeugeotBuilder TakeFromConstructionYear(int year)
         {
             _yearOfConstruction = year;
             return this;
         }
 
-        public ICar Build()
+        public Peugeot Build()
         {
             Peugeot product = new Peugeot(_engineVolume, _doors, _yearOfConstruction);
             return product;
