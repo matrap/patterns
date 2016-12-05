@@ -64,3 +64,8 @@ Composite.vshost.exe.config
 /Composite/bin/Debug/$RANDOM_SEED$
 /Decorator/bin/Debug/$RANDOM_SEED$
 /Strategy/bin/Debug/$RANDOM_SEED$
+/Composite/bin/Debug/Composite.vshost.exe.manifest
+/Visitor/bin/Debug/$RANDOM_SEED$
+/Visitor/bin/Debug/Visitor.exe.config
+/Visitor/bin/Debug/Visitor.vshost.exe.config
+/Visitor/bin/Debug/Visitor.vshost.exe.manifest
