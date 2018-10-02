@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMehod\FactoryMethod.csproj", "{D7DE7141-2727-4F58-B038-AEEB9BBCC730}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility.cs", "ChainOfResponsibility.cs\ChainOfResponsibility.cs.csproj", "{B40BFAC6-3BEE-40AE-9D0A-28EC0D1F29CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{D7DE7141-2727-4F58-B038-AEEB9BBCC730}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7DE7141-2727-4F58-B038-AEEB9BBCC730}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7DE7141-2727-4F58-B038-AEEB9BBCC730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40BFAC6-3BEE-40AE-9D0A-28EC0D1F29CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40BFAC6-3BEE-40AE-9D0A-28EC0D1F29CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40BFAC6-3BEE-40AE-9D0A-28EC0D1F29CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40BFAC6-3BEE-40AE-9D0A-28EC0D1F29CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{84DD8A76-79BE-4964-A9A8-FDBBFBCD447C} = {C3D7FF45-FBD4-4B59-B7A3-038D7D239144}
 		{3E266A62-B6FD-4ACE-B0DD-EF46BC65EA32} = {C5962561-F3C1-4B48-8D41-056613CDAB29}
 		{D7DE7141-2727-4F58-B038-AEEB9BBCC730} = {C4EFD3DD-97C7-45F9-BA31-D88CA74C93B9}
+		{B40BFAC6-3BEE-40AE-9D0A-28EC0D1F29CB} = {C5962561-F3C1-4B48-8D41-056613CDAB29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F628E85-5EEF-47ED-A7A2-9F1B69F79751}

@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apartment.cs" />
     <Compile Include="Bathroom.cs" />
     <Compile Include="ConsoleVisitor.cs" />
+    <Compile Include="CounterVisitor.cs" />
     <Compile Include="IRoom.cs" />
     <Compile Include="IVisitor.cs" />
     <Compile Include="Kitchen.cs" />

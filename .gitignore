@@ -72,3 +72,13 @@ Composite.vshost.exe.config
 /FactoryMehod/bin/Debug/FactoryMethod.exe.config
 /FactoryMehod/bin/Debug/FactoryMethod.vshost.exe.config
 /.vs/Patterns/v15/Server/sqlite3
+/ChainOfResponsibility.cs/bin/Debug/netcoreapp2.1/ChainOfResponsibility.cs.deps.json
+/ChainOfResponsibility.cs/bin/Debug/netcoreapp2.1/ChainOfResponsibility.cs.dll
+/ChainOfResponsibility.cs/bin/Debug/netcoreapp2.1/ChainOfResponsibility.cs.runtimeconfig.dev.json
+/ChainOfResponsibility.cs/bin/Debug/netcoreapp2.1/ChainOfResponsibility.cs.runtimeconfig.json
+/ChainOfResponsibility.cs/obj/ChainOfResponsibility.cs.csproj.nuget.g.props
+/ChainOfResponsibility.cs/obj/ChainOfResponsibility.cs.csproj.nuget.g.targets
+/ChainOfResponsibility.cs/obj/Debug/netcoreapp2.1/ChainOfResponsibility.cs.AssemblyInfo.cs
+/ChainOfResponsibility.cs/obj/Debug/netcoreapp2.1/ChainOfResponsibility.cs.dll
+/ChainOfResponsibility.cs/obj/project.assets.json
+/.vs/Patterns/DesignTimeBuild/*.dtbcache
